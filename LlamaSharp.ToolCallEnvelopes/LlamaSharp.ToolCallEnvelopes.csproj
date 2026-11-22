@@ -34,8 +34,8 @@ Security support until November 2031</PackageReleaseNotes>
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\LICENSE" Pack="true" PackagePath="LICENSE" />
-    <None Include="..\NOTICE" Pack="true" PackagePath="NOTICE" />
+    <None Include="..\LICENSE" Pack="true" PackagePath="" />
+    <None Include="..\NOTICE" Pack="true" PackagePath="" />
   </ItemGroup>
 
   <!-- The package license file is generated from the repository's COMMERCIAL-LICENSE and LICENSE files. -->
