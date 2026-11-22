@@ -3,7 +3,7 @@ param(
     [Parameter(Mandatory)]
     [string] $PackageDirectory,
 
-    [string] $ExpectedVersion = '0.2.1',
+    [string] $ExpectedVersion = '0.2.2',
 
     [string] $ExpectedCommit
 )

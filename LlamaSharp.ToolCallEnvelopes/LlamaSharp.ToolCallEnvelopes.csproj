@@ -4,14 +4,14 @@
     <PackageId>Supprocom.LlamaSharp.ToolCallEnvelopes</PackageId>
     <AssemblyName>LlamaSharp.ToolCallEnvelopes</AssemblyName>
     <RootNamespace>LlamaSharp.ToolCallEnvelopes</RootNamespace>
-    <Version>0.2.1</Version>
+    <Version>0.2.2</Version>
     <Authors>mkn8rn</Authors>
     <Title>LlamaSharp Tool Call Envelopes</Title>
     <PackageLicenseFile>PACKAGE-LICENSE.txt</PackageLicenseFile>
     <Description>Commercial or AGPL-3.0. Reliable LlamaSharp tool calling with a compiled JSON contract, manual turns, and managed orchestration.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>llamasharp;llama.cpp;tool-calling;gbnf;json-schema</PackageTags>
-    <PackageReleaseNotes>Dual-licensed: Commercial or AGPL-3.0. Adds the Supprocom Commercial License as an alternative to the AGPL-3.0.
+    <PackageReleaseNotes>Dual-licensed: Commercial or AGPL-3.0. The Supprocom Commercial License 2.0 comes with a Patreon membership (https://www.patreon.com/cw/mkn8rn); see the COMMERCIAL-LICENSE file.
 Security support until November 2031</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/Supprocom/LlamaSharp.ToolCallEnvelopes</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Supprocom/LlamaSharp.ToolCallEnvelopes</RepositoryUrl>
@@ -52,7 +52,7 @@ Security support until November 2031</PackageReleaseNotes>
       <_SupprocomPackageLicenseText>Commercial or AGPL-3.0
 
 This package is available under your choice of two licenses:
-- the Supprocom Commercial License 1.0, for businesses with a registered Supprocom sponsorship (https://github.com/sponsors/Supprocom)%3B or
+- the Supprocom Commercial License 2.0, for businesses with a Patreon membership (https://www.patreon.com/cw/mkn8rn)%3B or
 - the GNU Affero General Public License, version 3 (AGPL-3.0).
 
 Both texts follow. For each version, the COMMERCIAL-LICENSE file in the project's GitHub repository at the commit this package was built from prevails over this copy.

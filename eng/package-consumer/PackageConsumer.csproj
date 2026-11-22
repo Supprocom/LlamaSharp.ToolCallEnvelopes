@@ -5,6 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Supprocom.LlamaSharp.ToolCallEnvelopes" Version="0.2.1" />
+    <PackageReference Include="Supprocom.LlamaSharp.ToolCallEnvelopes" Version="0.2.2" />
   </ItemGroup>
 </Project>

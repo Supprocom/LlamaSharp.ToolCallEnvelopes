@@ -5,7 +5,7 @@ param(
 
     [string] $WorkingDirectory = 'artifacts/package-consumer',
 
-    [string] $ExpectedVersion = '0.2.1'
+    [string] $ExpectedVersion = '0.2.2'
 )
 
 $ErrorActionPreference = 'Stop'

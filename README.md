@@ -11,7 +11,7 @@ ownership, and chat-template selection in your LlamaSharp adapter.
 ## Install
 
 ```powershell
-dotnet add package Supprocom.LlamaSharp.ToolCallEnvelopes --version 0.2.1
+dotnet add package Supprocom.LlamaSharp.ToolCallEnvelopes --version 0.2.2
 ```
 
 ## Managed control flow
