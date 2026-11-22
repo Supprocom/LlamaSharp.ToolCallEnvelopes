@@ -83,10 +83,10 @@ public sealed partial class RepositoryDocumentationTests
             "LlamaSharp.ToolCallEnvelopes",
             "LlamaSharp.ToolCallEnvelopes.csproj"));
         packageProject.Descendants("Version").Should().ContainSingle()
-            .Which.Value.Should().Be("0.2.0");
+            .Which.Value.Should().Be("0.2.1");
         File.ReadAllText(Path.Combine(root, "README.md"))
             .Should().Contain(
-                "dotnet add package Supprocom.LlamaSharp.ToolCallEnvelopes --version 0.2.0");
+                "dotnet add package Supprocom.LlamaSharp.ToolCallEnvelopes --version 0.2.1");
     }
 
     private static string[] PublicDocumentation()

@@ -16,7 +16,7 @@ The project must target .NET 10.
 Install the package from NuGet.org.
 
 ```powershell
-dotnet add package Supprocom.LlamaSharp.ToolCallEnvelopes --version 0.2.0
+dotnet add package Supprocom.LlamaSharp.ToolCallEnvelopes --version 0.2.1
 ```
 
 ## Compile the tool plan once

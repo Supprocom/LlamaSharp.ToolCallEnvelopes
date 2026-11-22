@@ -3,7 +3,7 @@ param(
     [Parameter(Mandatory)]
     [string] $PackageDirectory,
 
-    [string] $ExpectedVersion = '0.2.0',
+    [string] $ExpectedVersion = '0.2.1',
 
     [string] $ExpectedCommit
 )
@@ -93,8 +93,8 @@ try {
         throw "Package identity is '$($metadata.id)' version '$($metadata.version)', expected " +
             "'$packageId' version '$ExpectedVersion'. Correct the project metadata and repack."
     }
-    if ($metadata.license.'#text' -ne 'AGPL-3.0-or-later') {
-        throw "Package license is '$($metadata.license.'#text')', expected AGPL-3.0-or-later."
+    if ($metadata.license.type -ne 'file' -or $metadata.license.'#text' -ne 'PACKAGE-LICENSE.txt') {
+        throw "Package license is '$($metadata.license.'#text')', expected the PACKAGE-LICENSE.txt file."
     }
     if ($metadata.readme -ne 'README.md') {
         throw "Package readme is '$($metadata.readme)', expected README.md."
